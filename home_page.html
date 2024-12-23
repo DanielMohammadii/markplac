@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Mystical Services</title>
+    <link rel="stylesheet" href="./css/home_page.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="nav-items">
+            <div class="nav-item avatar">
+                <img src="./images/man3.jpg" alt="User Profile">
+                <div class="profile-menu" id="profileMenu">
+                    <div class="menu-header">
+                        <img src="./images/man3.jpg" alt="User Profile">
+                        <div class="user-info">
+                            <h4>John Doe</h4>
+                            <p>Premium Member</p>
+                        </div>
+                    </div>
+                    <a href="./become_expert.html" class="become-expert-btn">Become an Expert</a>
+                    <div class="menu-items">
+                        <a href="#"><i class="profile-icon">👤</i> My Profile</a>
+                        <a href="#"><i class="profile-icon">⚙️</i> Settings</a>
+                        <a href="#"><i class="profile-icon">💰</i> Billing</a>
+                        <a href="#"><i class="profile-icon">🔔</i> Notifications</a>
+                        <div class="menu-divider"></div>
+                        <a href="#" class="logout"><i class="profile-icon">🚪</i> Logout</a>
+                    </div>
+                </div>
+            </div>
+             
+            <div class="nav-item">⚡</div>
+            <div class="nav-item">◇</div>
+            <div class="nav-item">✏</div>
+            <div class="nav-item">⚜</div>
+            <div class="nav-item">☘</div>
+        </div>
+         
+    </div>
+
+    <div class="hero-background">
+        <div class="overlay"></div>
+        <h1 class="hero-title">Discover Mystical Services</h1>
+    </div>
+
+    <main class="content">
+        <div class="search-container">
+            <input type="text" placeholder="Search services" class="search-input">
+            <button class="find-button">find</button>
+        </div>
+
+        <div class="popular-searches">
+            <h3>popular searches</h3>
+            <div class="tags">
+                <span class="tag">Tarot Reading</span>
+                <span class="tag">Energy Healing</span>
+                <span class="tag">Astrology</span>
+                <span class="tag">Numerology</span>
+                <span class="tag">Crystal Healing</span>
+                <span class="tag">Chakra Balancing</span>
+                <span class="tag">Spiritual Guidance</span>
+            </div>
+        </div>
+
+        <div class="services-section">
+            <h3>services</h3>
+            <div class="service-filters">
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Tarot
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Ast
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Energy
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Numerol
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Crystal
+                </label>
+            </div>
+        </div>
+
+        <div class="rating-section">
+            <h3>User Rating</h3>
+            <div class="rating-icons">
+                <span>🌙</span>
+                <span>☀️</span>
+                <span>⭐</span>
+                <span>⚡</span>
+                <span>✨</span>
+            </div>
+        </div>
+
+        <div class="experience-section">
+            <h3>Experience Level</h3>
+            <div class="experience-filters">
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Novice
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Adept
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    Master
+                </label>
+            </div>
+        </div>
+
+        <div class="experts-section">
+            <div class="expert-cards">
+                <div class="expert-card">
+                    <div class="status-badge online">Online</div>
+                    <img src="./images/image1.jpg" alt="Sarah Miller" class="expert-image">
+                    <div class="expert-details">
+                        <h3>Sarah Miller</h3>
+                        <p class="expert-title">Numerologist</p>
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span>4.8</span>
+                            <span class="reviews">(127)</span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">$75/hr</span>
+                            <div class="icons">
+                                <span>📹</span>
+                                <span>📍</span>
+                            </div>
+                        </div>
+                        <button class="book-btn">Book Session</button>
+                        <button class="about-btn" onclick="showExpertBio('Sarah Miller')">About Me</button>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="status-badge online">Online</div>
+                    <img src="./images/image2.jpg" alt="Sarah Miller" class="expert-image">
+                    <div class="expert-details">
+                        <h3>Sarah Miller</h3>
+                        <p class="expert-title">Numerologist</p>
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span>4.8</span>
+                            <span class="reviews">(127)</span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">$75/hr</span>
+                            <div class="icons">
+                                <span>📹</span>
+                                <span>📍</span>
+                            </div>
+                        </div>
+                        <button class="book-btn">Book Session</button>
+                        <button class="about-btn" onclick="showExpertBio('Sarah Miller')">About Me</button>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="status-badge online">Online</div>
+                    <img src="./images/image2.jpg" alt="Sarah Miller" class="expert-image">
+                    <div class="expert-details">
+                        <h3>Sarah Miller</h3>
+                        <p class="expert-title">Numerologist</p>
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span>4.8</span>
+                            <span class="reviews">(127)</span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">$75/hr</span>
+                            <div class="icons">
+                                <span>📹</span>
+                                <span>📍</span>
+                            </div>
+                        </div>
+                        <button class="book-btn">Book Session</button>
+                        <button class="about-btn" onclick="showExpertBio('Sarah Miller')">About Me</button>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="status-badge online">Online</div>
+                    <img src="./images/image3.jpg" alt="Sarah Miller" class="expert-image">
+                    <div class="expert-details">
+                        <h3>Sarah Miller</h3>
+                        <p class="expert-title">Numerologist</p>
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span>4.8</span>
+                            <span class="reviews">(127)</span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">$75/hr</span>
+                            <div class="icons">
+                                <span>📹</span>
+                                <span>📍</span>
+                            </div>
+                        </div>
+                        <button class="book-btn">Book Session</button>
+                        <button class="about-btn" onclick="showExpertBio('Sarah Miller')">About Me</button>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="status-badge online">Online</div>
+                    <img src="./images/image3.jpg" alt="Sarah Miller" class="expert-image">
+                    <div class="expert-details">
+                        <h3>Sarah Miller</h3>
+                        <p class="expert-title">Numerologist</p>
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span>4.8</span>
+                            <span class="reviews">(127)</span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">$75/hr</span>
+                            <div class="icons">
+                                <span>📹</span>
+                                <span>📍</span>
+                            </div>
+                        </div>
+                        <button class="book-btn">Book Session</button>
+                        <button class="about-btn" onclick="showExpertBio('Sarah Miller')">About Me</button>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="status-badge online">Online</div>
+                    <img src="./images/image2.jpg" alt="Sarah Miller" class="expert-image">
+                    <div class="expert-details">
+                        <h3>Sarah Miller</h3>
+                        <p class="expert-title">Numerologist</p>
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span>4.8</span>
+                            <span class="reviews">(127)</span>
+                        </div>
+                        <div class="price-info">
+                            <span class="price">$75/hr</span>
+                            <div class="icons">
+                                <span>📹</span>
+                                <span>📍</span>
+                            </div>
+                        </div>
+                        <button class="book-btn">Book Session</button>
+                        <button class="about-btn" onclick="showExpertBio('Sarah Miller')">About Me</button>
+                    </div>
+                </div>
+                <!-- Add more expert cards as needed -->
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="expertModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="expertName"></h2>
+            <p id="expertBio"></p>
+        </div>
+    </div>
+
+    <script>
+    const expertBios = {
+        'Sarah Miller': 'With over 10 years of experience in numerology, Sarah specializes in life path numbers and destiny calculations. Her unique approach combines traditional numerology with modern interpretations.'
+    };
+
+    function showExpertBio(name) {
+        const modal = document.getElementById('expertModal');
+        const expertName = document.getElementById('expertName');
+        const expertBio = document.getElementById('expertBio');
+        
+        expertName.textContent = name;
+        expertBio.textContent = expertBios[name];
+        modal.style.display = 'block';
+    }
+
+    document.querySelector('.close-btn').onclick = function() {
+        document.getElementById('expertModal').style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('expertModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+    </script>
+    <script src="./js/profile.js"></script>
+</body>
+</html>
